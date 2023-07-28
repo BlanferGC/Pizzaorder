@@ -1,0 +1,23 @@
+1-Pizza size: "Personal Pan".
+Selected ingredients: ["Cheese", "Pepperoni"].
+Expected result: The total price should be $6.50 (Price of "Personal Pan" + Price of "Cheese" + Price of "Pepperoni"). Successful test
+
+2-Pizza size: "Large".
+Selected ingredients: ["Cheese", "Mushrooms", "Peppers", "Olives"].
+Expected result: The total price should be $12.50 (Price of "Large" + Price of "Cheese" + Price of "Mushrooms" + Price of "Peppers" + Price of "Olives"). Successful test
+
+3-Pizza size: "Medium".
+Selected ingredients: ["Ham", "Olives"].
+Expected result: Total price should be $8.00 (Price of "Medium" + Price of "Ham" + Price of "Olives"). Successful test
+
+4-Pizza size: Not selected
+Selected ingredients: ["Cheese"].
+Expected Result: Should display an error message indicating that a pizza size should be selected. Successful test
+
+5-Pizza size: "Large".
+Ingredients selected: Not selected
+Expected Result: Should display an error message indicating that at least one ingredient must be selected. Successful test
+
+6-Pizza size: "Personal Pan".
+Selected ingredients: ["Cheese", "Pepperoni", "Ham", "Mushrooms", "Peppers", "Olives"].
+Expected result: The total price should be $14.50 (Price of "Personal Pan" + Price of all ingredients). Successful test 
